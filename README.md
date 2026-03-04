@@ -300,6 +300,20 @@ All runs are logged to MLflow at `http://localhost:5001`:
 
 ---
 
+## 🔍 Drift Monitoring
+
+![Evidently Drift Report](assets/drift_report.jpeg)
+
+Simulated 4 real-world drift scenarios:
+- University zones: 2.5x late-night demand spike (new food hall)
+- Hot weather correlation flip (new indoor venues)
+- Weekend suppression due to competitor launch (-40%)
+- Overall market volume growth (+20%)
+
+**Result:** MAE degraded from 1.33 → 2.31 (+73.4%), triggering automatic retraining alert at 15% threshold.
+
+---
+
 ## 🗺️ Roadmap
 
 - [ ] **Prophet baseline** — additive seasonality model for comparison
