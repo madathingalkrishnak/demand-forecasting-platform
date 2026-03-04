@@ -15,6 +15,14 @@
 **Business impact:** At $37.50 average order value and 20 zones, a 44.5% reduction in forecast error translates to significantly more efficient driver allocation and fewer missed demand spikes.
 
 ---
+## 📸 Dashboard
+
+![Demand Forecasting Dashboard](assets/dashboard.jpeg)
+
+![Demand Forecasting Dashboard](assets/dashboard_1.jpeg)
+
+
+---
 
 ## 🏗️ Architecture
 
