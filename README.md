@@ -9,6 +9,7 @@
 | Model | MAE | RMSE | MAPE | vs Baseline |
 |---|---|---|---|---|
 | Naive (same hour last week) | 2.91 | 4.04 | 51.0% | — |
+| Prophet (per zone avg) | 1.74 | 2.44 | 47.8% | +40.2% |
 | XGBoost (single zone) | 2.31 | 3.26 | 42.4% | +20.6% |
 | **XGBoost (global, all zones)** | **1.61** | **2.29** | **44.6%** | **+44.5%** |
 
